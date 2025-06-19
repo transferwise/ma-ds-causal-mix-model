@@ -56,15 +56,7 @@ def extract_all_seasonalities(df, seasonalities, trend=True):
     # Combine into a DataFrame
     result_df = pd.concat(components, axis=1)
 
-    # # Initialize the MaxAbsScaler
-    # scaler = MinMaxScaler()
-
-    # # Select the columns to be scaled (excluding "date")
-    # cols_to_scale = result_df.columns[1:]
-
-    # # Apply the scaler to the selected columns
-    # result_df[cols_to_scale] = scaler.fit_transform(result_df[cols_to_scale])
-
+# Removed commented-out scaling code as it is not necessary for the current implementation.
     # Set "ds" column as index and rename it to "date"
     result_df = result_df.set_index("ds").rename_axis("date")
 
