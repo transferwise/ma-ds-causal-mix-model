@@ -1,0 +1,15 @@
+name: wise_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.11
+  - pip
+  - papermill
+  - ipykernel
+  - ipywidgets
+  - nutpie
+  - jax
+  - numba
+  - pip:
+      - git+https://github.com/pymc-labs/pymc-marketing.git

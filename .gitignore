@@ -24,3 +24,9 @@ build/
 out/
 .gradle/
 bin/
+
+.nc
+**/*.nc
+.ignore_folder
+**.csv
+**.gz
