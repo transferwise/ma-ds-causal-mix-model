@@ -1,7 +1,7 @@
 """
 Causal inference utility functions.
 """
-from .utils import build_and_sample_model
+from ..utils.pymc import build_and_sample_model
 
 import pandas as pd
 import numpy as np
