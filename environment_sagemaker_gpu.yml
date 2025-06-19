@@ -1,0 +1,16 @@
+name: sagemaker-base-gpu
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - jax
+  - jaxlib=*=cuda12*
+  - numba
+  - nutpie
+  - pytensor
+  - pymc
+  - ipywidgets
+  - ipykernel
+  - pip:
+    - numpyro
