@@ -30,3 +30,5 @@ bin/
 .ignore_folder
 **.csv
 **.gz
+
+.DS_store
